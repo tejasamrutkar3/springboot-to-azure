@@ -2,7 +2,7 @@ spring:
   datasource:
     url: Server=tcp:tejas.database.windows.net,1433;Initial Catalog=tejas;Persist Security Info=False;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;
     username: tejas
-    password: Password@12
+    password: Password@123
   jpa:
     show-sql: true
     hibernate:
