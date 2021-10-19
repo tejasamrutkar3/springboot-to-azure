@@ -1,6 +1,6 @@
 spring:
   datasource:
-    url: Server=tcp:tejas.database.windows.net,1433;Initial Catalog=tejas;Persist Security Info=False;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;
+    url: jdbc:sqlserver://tejas.database.windows.net:1433;database=tejas;encrypt=true;trustServerCertificate=false;hostNameInCertificate=*.database.windows.net;loginTimeout=30;
     username: tejas
     password: Password@123
   jpa:
