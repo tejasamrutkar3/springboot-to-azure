@@ -49,5 +49,5 @@ jobs:
         with:
           app-name: 'tejasbankapplication'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_D2725B11E8234D7E91596CB98607C92B }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_76E8C8BD0AAF40AC8184E8B27D7A620B }}
           package: '*.jar'
